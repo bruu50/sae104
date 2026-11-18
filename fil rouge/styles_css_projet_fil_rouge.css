@@ -7,7 +7,7 @@ header {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   border-bottom: 1px solid rgb(219, 192, 134);
+   border-bottom: 2px solid rgb(220, 200, 140);
 }
 
 #photographe {
@@ -24,20 +24,20 @@ header nav span{
 
 /* Les polices */
 .yeseva-one-regular {
-  font-family: "Yeseva One    a changer ", serif;
+  font-family: "Montserrat", serif;
   font-weight: 900;
   font-style: normal;
 }
 
 
 .montserrat {
-  font-family: "Montserrat      a changer", sans-serif;
+  font-family: "Yeseva One", sans-serif;
   font-optical-sizing: auto;
   font-weight: 900;
   font-style: normal;
 }
 
-@media all and (max-width: 767px) {
+@media all and (max-width: 770px) {
     header {
         flex-direction: column;
     }
